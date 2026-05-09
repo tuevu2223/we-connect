@@ -1,9 +1,8 @@
+import { Button } from "@mui/material";
 import { useEffect } from "react";
 
  
 function HomePage() {
-
-
   useEffect(() => {
     fetch("http://localhost:5000")
       .then((res) => res.json())
@@ -12,11 +11,9 @@ function HomePage() {
       });
   }, []);
 
-
-
   return (
     <div className="">
-      home page
+      <Button variant="contained">button</Button>
     </div>
   );
 }
