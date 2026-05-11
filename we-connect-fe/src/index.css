@@ -3,3 +3,7 @@
 html body {
     font-family: 'Public Sans Variable', sans-serif !important;
 }
+
+@theme { 
+  --color-dark-100: #F8F7FA; 
+}
