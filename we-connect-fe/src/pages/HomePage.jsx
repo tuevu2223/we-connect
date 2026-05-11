@@ -1,7 +1,6 @@
 import { Button } from "@mui/material";
 import { useEffect } from "react";
 
- 
 function HomePage() {
   useEffect(() => {
     fetch("http://localhost:5000")

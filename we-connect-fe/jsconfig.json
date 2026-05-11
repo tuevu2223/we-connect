@@ -10,6 +10,6 @@
     },
     "ignoreDeprecations": "5.0"
   },
-  "include": ["src"],
+  "include": ["src", "prettier.config.js"],
   "exclude": ["node_modules"]
 }
